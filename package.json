@@ -1,0 +1,22 @@
+{
+  "name": "paw",
+  "version": "0.0.1",
+  "description": "Orders monitoring and send post service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siyet/paw.git"
+  },
+  "author": "Alexander Tseluyko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siyet/paw/issues"
+  },
+  "homepage": "https://github.com/Siyet/paw#readme",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
