@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Siyet/paw#readme",
   "dependencies": {
+    "node": "^10.10.0",
+    "request-promise": "^4.2.2",
     "xml2js": "^0.4.19"
   }
 }
