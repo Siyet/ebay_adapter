@@ -1,4 +1,5 @@
-require("./config").orders_adapters.forEach(adapter=>{
-    console.log(adapter.orders)
+let config = require("./config")
+config.orders_adapters.forEach(async adapter=>{
+    console.log(await adapter.adapter.orders)
 })
-console.log(adapter.orders)
+// console.log(config)
